@@ -26,9 +26,9 @@ public class AmazonTaskLoginPage {
     private WebElement sigInButton;
 
     public void login(){
-        emailText.sendKeys("");
+        emailText.sendKeys("05433032141");
         devamEtButton.click();
-        sifreButton.sendKeys("");
+        sifreButton.sendKeys("123456");
         sigInButton.click();
     }
 
